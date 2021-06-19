@@ -1,0 +1,41 @@
+.main {
+    pointer-events: none;
+    padding: 0 10%;
+    min-height: 40vh;
+    border-bottom: 1px solid white;
+    display: flex;
+}
+
+.main div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-first span {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0f9191;
+}
+
+.main-first h1 {
+    margin: 0;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.main-secondary span {
+    pointer-events: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #0f9191;
+}
+
+.main-secondary h1 {
+    pointer-events: none;
+    margin: 0;
+    color: white;
+}

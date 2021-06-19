@@ -1,0 +1,37 @@
+.currency {
+    padding: 0 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.currency span {
+    padding: 12px 0;
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid white;
+}
+
+.currency-item {
+    padding: 12px 6px;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    transition: 0.2s linear;
+}
+
+.currency-item:hover {
+    color: #0f9191;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+    transition: 0.2s linear;
+}
+
+.currency-item p {
+    pointer-events: none;
+    margin: 0;
+    width: 16%;
+    text-align: left;
+}

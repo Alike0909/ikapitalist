@@ -1,0 +1,85 @@
+header {
+    padding: 0 10%;
+    min-height: 10vh;
+    border-bottom: 1px solid white;
+    display: flex;
+}
+
+header div {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ant-btn {
+    padding: 0 24px !important;
+    height: 48px !important;
+    color: white !important;
+    border-radius: 8px !important;
+    border: 1px solid white !important;
+    background: transparent !important;
+}
+
+.ant-btn span {
+    font-size: 18px !important;
+}
+
+.ant-btn:hover {
+    padding: 0 20px !important;
+    height: 36px !important;
+}
+
+.ant-modal-content {
+    border-radius: 12px !important;
+}
+
+.ant-modal-title {
+    font-size: 18px !important;
+}
+
+.ant-modal-body input {
+    margin: 4px 0 !important;
+    padding: 6px 12px !important;
+    font-size: 16px;
+}
+
+.ant-modal-header {
+    border-top-left-radius: 12px !important;
+    border-top-right-radius: 12px !important;
+}
+
+.ant-modal-footer button {
+    border: 1px solid #57ddc9 !important;
+}
+
+.ant-modal-footer button span {
+    font-size: 16px;
+    color: #57ddc9;
+}
+
+.transfer {
+    margin: 6px 0;
+    display: flex;
+    align-items: center;
+}
+
+.transfer p {
+    margin: 0;
+    width: 90px;
+    font-size: 20px;
+}
+
+.transfer button {
+    margin: 4px 0 4px 6px;
+    width: 90px;
+    height: 39px;
+    color: #57ddc9;
+    border-radius: 8px;
+    border: 1px solid #57ddc9;
+    background: transparent;
+}
+
+.transfer button:hover {
+    text-decoration: underline;
+}

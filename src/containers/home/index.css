@@ -1,0 +1,5 @@
+.home {
+    min-height: 120vh;
+    background: linear-gradient(to right bottom, #57ddc9, #599b87);;
+    font-family: 'Montserrat', sans-serif;
+}
